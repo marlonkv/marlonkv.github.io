@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  place-content: space-between;
+  margin: 2rem 4rem 4rem 4rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+}

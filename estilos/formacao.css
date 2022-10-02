@@ -1,0 +1,145 @@
+#formacao {
+  background-color: #141414;
+  padding: 2rem 0rem;
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  margin: 5rem auto;
+  color: #a3a3a3;
+}
+
+.formacao .subtitulo {
+  color: rgb(0, 0, 0);
+  word-break: break-all;
+  max-width: 5ch;
+}
+
+.formacao-colun2 {
+  display: grid;
+  gap: 3.2rem;
+}
+
+.formacao-colun2 .texto {
+  display: block;
+
+  /* tipografia */
+  max-width: 40ch;
+  font-size: 1.3rem;
+}
+
+.formacao-colun2 .texto strong {
+  color: white;
+}
+
+.formacao-lista {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.formacao-lista div {
+  background-color: black;
+  color: #a3a3a3;
+  padding: 1.5rem 1.4rem;
+  height: 9rem;
+  width: 9.6rem;
+  border-radius: 0.5rem;
+}
+
+.formacao-lista div p strong {
+  color: white;
+}
+
+.formacao-lista .blocos {
+  display: grid;
+  max-width: 20ch;
+  place-content: start;
+  gap: 0.8rem;
+}
+
+.pUltiomo {
+  position: absolute;
+  top: 9.3rem;
+}
+
+#block1::before {
+  content: "";
+  height: 1.3rem;
+  width: 0.3rem;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -4px;
+  top: 56px;
+}
+
+#block2::before {
+  content: "";
+  height: 1.3rem;
+  width: 0.3rem;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: 218px;
+  top: 56px;
+}
+
+#block3::before {
+  content: "";
+  height: 1.3rem;
+  width: 0.3rem;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: 440px;
+  top: 56px;
+}
+
+.formacao-maisdetalhes {
+  position: relative;
+  display: grid;
+  gap: 3rem;
+  color: white;
+}
+
+.detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 0rem;
+}
+
+.detalhes2 {
+  display: grid;
+  gap: 1rem 0rem;
+  grid-template-columns: 1fr 9.5fr;
+}
+
+.detalhes2 h6 {
+  grid-column: 1/-1;
+}
+
+.detalhes h6 {
+  grid-column: 1/-1;
+}
+
+.detalhes img {
+  position: absolute;
+  left: -34px;
+  top: -5px;
+}
+
+.detalhes2 img {
+  position: absolute;
+  left: -34px;
+  top: 126px;
+}
+
+.fluente {
+  position: relative;
+  left: -28px;
+  color: #8f8f8f;
+}
+
+.cor-cinza {
+  color: #8f8f8f;
+}

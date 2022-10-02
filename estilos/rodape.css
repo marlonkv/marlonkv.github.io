@@ -1,0 +1,25 @@
+#rodape {
+  background-color: black;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #cccccc;
+  max-width: 1200px;
+  margin: 0rem auto;
+  gap: 1rem;
+  padding: 3rem 5rem;
+  place-content: center;
+}
+
+.texto-rodape {
+  font-size: 1.4rem;
+  max-width: 32ch;
+}
+
+.lista-contato h3 {
+  font-size: 2.1rem;
+  color: white;
+  margin: 2rem;
+}
